@@ -3,11 +3,11 @@ import { css } from '@emotion/react'
 import { Link } from 'react-router-dom'
 import tw from 'twin.macro'
 
-export const Home = () => {
+export const Profile = () => {
   return (
-    <Layout title="Home">
-      <div css={styles.root}>Hello world</div>
-      <Link to="/profile">profile</Link>
+    <Layout title="Profile">
+      <div css={styles.root}>3lang3 Profile</div>
+      <Link to="/">home</Link>
     </Layout>
   )
 }
