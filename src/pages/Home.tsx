@@ -6,7 +6,7 @@ import tw from 'twin.macro'
 export const Home = () => {
   return (
     <Layout title="Home">
-      <div css={styles.root}>Hello world</div>
+      <div css={styles.root}>Hello Vite</div>
       <Link to="/profile">profile</Link>
     </Layout>
   )
